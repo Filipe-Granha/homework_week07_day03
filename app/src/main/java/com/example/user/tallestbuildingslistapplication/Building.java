@@ -20,7 +20,7 @@ public class Building {
     }
 
 
-    public int getRanking() {
+    public Integer getRanking() {
         return ranking;
     }
 
@@ -30,12 +30,12 @@ public class Building {
     }
 
 
-    public int getHeightInMeters() {
+    public Integer getHeightInMeters() {
         return heightInMeters;
     }
 
 
-    public int getInaugurationYear() {
+    public Integer getInaugurationYear() {
         return inaugurationYear;
     }
 

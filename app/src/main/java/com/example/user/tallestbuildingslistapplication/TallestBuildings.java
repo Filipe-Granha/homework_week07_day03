@@ -31,7 +31,7 @@ public class TallestBuildings {
     }
 
 
-    
+
 
     public ArrayList<Building> getList() {
         return new ArrayList<Building>(list);
