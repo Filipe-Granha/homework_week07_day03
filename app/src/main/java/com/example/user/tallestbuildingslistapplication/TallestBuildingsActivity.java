@@ -22,6 +22,8 @@ public class TallestBuildingsActivity extends AppCompatActivity {
 
         ListView listView = (ListView) findViewById(R.id.list);
         listView.setAdapter(buildingAdapter);
+
+        Log.d(getClass().toString(), "onCreate called");
     }
 
 
