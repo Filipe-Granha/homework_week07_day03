@@ -37,10 +37,10 @@ public class TallestBuildingsAdapter extends ArrayAdapter<Building> {
         name.setText(currentBuilding.getName().toString());
 
         TextView height = (TextView) listItemView.findViewById(R.id.height);
-        height.setText(currentBuilding.getHeightInMeters().toString());
+        height.setText("Height: " + currentBuilding.getHeightInMeters().toString() + "m");
 
         TextView year = (TextView) listItemView.findViewById(R.id.year);
-        year.setText(currentBuilding.getInaugurationYear().toString());
+        year.setText("Year of inauguration: " + currentBuilding.getInaugurationYear().toString());
 
 
 
