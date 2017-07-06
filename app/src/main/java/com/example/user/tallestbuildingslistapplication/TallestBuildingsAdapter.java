@@ -42,6 +42,8 @@ public class TallestBuildingsAdapter extends ArrayAdapter<Building> {
         TextView year = (TextView) listItemView.findViewById(R.id.year);
         year.setText("Year of inauguration: " + currentBuilding.getInaugurationYear().toString());
 
+        listItemView.setTag(currentBuilding);
+
 
 
         return listItemView;
